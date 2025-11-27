@@ -1,0 +1,50 @@
+=== selenium_bot.py ===
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\alibot\bot/selenium_bot.py", line 225, in <module>
+    descargar_documentos(empresa, fecha_inicio, fecha_fin)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\alibot\bot/selenium_bot.py", line 112, in descargar_documentos
+    cerrar_popups(driver)
+    ~~~~~~~~~~~~~^^^^^^^^
+  File "C:\xampp\htdocs\alibot\bot/selenium_bot.py", line 46, in cerrar_popups
+    popup_cerrado = cerrar_modal()
+  File "C:\xampp\htdocs\alibot\bot/selenium_bot.py", line 37, in cerrar_modal
+    driver.switch_to.frame(frame)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\JONATHAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\switch_to.py", line 92, in frame
+    self._driver.execute(Command.SWITCH_TO_FRAME, {"id": frame_reference})
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JONATHAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\JONATHAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.176)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7fe5da235
+	0x7ff7fe332630
+	0x7ff7fe0c16dd
+	0x7ff7fe098e31
+	0x7ff7fe14a22e
+	0x7ff7fe16b3d2
+	0x7ff7fe10b0ed
+	0x7ff7fe10bf63
+	0x7ff7fe605d60
+	0x7ff7fe5ffe8a
+	0x7ff7fe621005
+	0x7ff7fe34d71e
+	0x7ff7fe354e1f
+	0x7ff7fe33b7c4
+	0x7ff7fe33b97f
+	0x7ff7fe3218e8
+	0x7ffa0f297374
+	0x7ffa1117cc91
+
+
+=== procesar_archivos.py ===
+ZIP encontrados: 0
+PROCESO FINALIZADO
+

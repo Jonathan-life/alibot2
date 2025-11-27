@@ -1,0 +1,92 @@
+=== selenium_bot.py ===
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\alibot\bot/selenium_bot.py", line 52, in cerrar_panel
+    panel = WebDriverWait(driver, 3).until(
+        EC.presence_of_element_located((By.ID, "divPanelIU02"))
+    )
+  File "C:\Users\JONATHAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message:
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff791b2a235
+	0x7ff791882630
+	0x7ff7916116dd
+	0x7ff79166a27e
+	0x7ff79166a58c
+	0x7ff7916bed77
+	0x7ff7916bbaba
+	0x7ff79165b0ed
+	0x7ff79165bf63
+	0x7ff791b55d60
+	0x7ff791b4fe8a
+	0x7ff791b71005
+	0x7ff79189d71e
+	0x7ff7918a4e1f
+	0x7ff79188b7c4
+	0x7ff79188b97f
+	0x7ff7918718e8
+	0x7ffbd28a7374
+	0x7ffbd2b9cc91
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\alibot\bot/selenium_bot.py", line 225, in <module>
+    descargar_documentos(empresa, fecha_inicio, fecha_fin)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\alibot\bot/selenium_bot.py", line 112, in descargar_documentos
+    cerrar_popups(driver)
+    ~~~~~~~~~~~~~^^^^^^^^
+  File "C:\xampp\htdocs\alibot\bot/selenium_bot.py", line 82, in cerrar_popups
+    panel_cerrado = cerrar_panel()
+  File "C:\xampp\htdocs\alibot\bot/selenium_bot.py", line 73, in cerrar_panel
+    WebDriverWait(driver, 5).until(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.invisibility_of_element_located((By.ID, "divPanelIU02"))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\JONATHAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py", line 129, in until
+    value = method(self._driver)
+  File "C:\Users\JONATHAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 556, in _predicate
+    target = driver.find_element(*target)
+  File "C:\Users\JONATHAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JONATHAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\JONATHAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff791b2a235
+	0x7ff791882630
+	0x7ff7916116dd
+	0x7ff7915fd205
+	0x7ff791622a8a
+	0x7ff79169a476
+	0x7ff7916bb3d2
+	0x7ff79165b0ed
+	0x7ff79165bf63
+	0x7ff791b55d60
+	0x7ff791b4fe8a
+	0x7ff791b71005
+	0x7ff79189d71e
+	0x7ff7918a4e1f
+	0x7ff79188b7c4
+	0x7ff79188b97f
+	0x7ff7918718e8
+	0x7ffbd28a7374
+	0x7ffbd2b9cc91
+
+
+=== procesar_archivos.py ===
+ZIP encontrados: 0
+PROCESO FINALIZADO
+

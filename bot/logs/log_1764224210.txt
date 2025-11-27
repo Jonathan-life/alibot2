@@ -1,0 +1,53 @@
+=== selenium_bot.py ===
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\alibot\bot/selenium_bot.py", line 236, in <module>
+    descargar_documentos(empresa, fecha_inicio, fecha_fin)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\alibot\bot/selenium_bot.py", line 114, in descargar_documentos
+    driver.get("https://e-menu.sunat.gob.pe/cl-ti-itmenu/MenuInternet.htm?exe=11.5.3.1.2")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JONATHAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 483, in get
+    self.execute(Command.GET, {"url": url})
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JONATHAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\JONATHAN\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=142.0.7444.176)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7fe5da235
+	0x7ff7fe332630
+	0x7ff7fe0c16dd
+	0x7ff7fe0be228
+	0x7ff7fe0aeba9
+	0x7ff7fe0b09d7
+	0x7ff7fe0af160
+	0x7ff7fe0ae917
+	0x7ff7fe0ae5db
+	0x7ff7fe0ac145
+	0x7ff7fe0ac9dc
+	0x7ff7fe0c59ea
+	0x7ff7fe16c8be
+	0x7ff7fe142b0a
+	0x7ff7fe16baba
+	0x7ff7fe10b0ed
+	0x7ff7fe10bf63
+	0x7ff7fe605d60
+	0x7ff7fe5ffe8a
+	0x7ff7fe621005
+	0x7ff7fe34d71e
+	0x7ff7fe354e1f
+	0x7ff7fe33b7c4
+	0x7ff7fe33b97f
+	0x7ff7fe3218e8
+	0x7ffa0f297374
+	0x7ffa1117cc91
+
+
+=== procesar_archivos.py ===
+ZIP encontrados: 0
+PROCESO FINALIZADO
+

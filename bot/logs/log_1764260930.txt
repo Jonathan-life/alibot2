@@ -1,0 +1,13 @@
+=== ventaselenium.py ===
+
+
+=== procesar_archivos.py ===
+ZIP encontrados: 3
+Guardada factura E001-38
+Archivo guardado: FACTURAE001-3820494384273.zip
+Guardada factura E001-39
+Archivo guardado: FACTURAE001-3920494384273.zip
+Guardada factura E001-40
+Archivo guardado: FACTURAE001-4020494384273.zip
+PROCESO FINALIZADO
+

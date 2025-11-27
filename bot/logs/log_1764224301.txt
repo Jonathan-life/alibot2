@@ -1,0 +1,37 @@
+=== selenium_bot.py ===
+
+
+=== procesar_archivos.py ===
+ZIP encontrados: 10
+Guardada factura E001-1993
+Archivo guardado: FACTURAE001-199310431892656.zip
+Guardada factura E001-2050
+Archivo guardado: FACTURAE001-205020606566094.zip
+Guardada factura E001-2795
+Archivo guardado: FACTURAE001-279510235346881.zip
+Guardada factura E001-2824
+Archivo guardado: FACTURAE001-282420601698839.zip
+Guardada factura E001-3292
+Archivo guardado: FACTURAE001-329220603435827.zip
+Guardada factura E001-33
+Archivo guardado: FACTURAE001-3320555988436.zip
+Guardada factura E001-34
+Archivo guardado: FACTURAE001-3420555988436.zip
+Guardada factura E001-648
+Archivo guardado: FACTURAE001-64820607062111.zip
+Guardada factura E001-78
+Archivo guardado: FACTURAE001-7820609439107.zip
+Guardada factura E001-79
+Archivo guardado: FACTURAE001-7920609439107.zip
+Archivo guardado: PDF-DOC-E001199310431892656.PDF
+Archivo guardado: PDF-DOC-E001205020606566094.PDF
+Archivo guardado: PDF-DOC-E001279510235346881.PDF
+Archivo guardado: PDF-DOC-E001282420601698839.PDF
+Archivo guardado: PDF-DOC-E001329220603435827.PDF
+Archivo guardado: PDF-DOC-E0013320555988436.PDF
+Archivo guardado: PDF-DOC-E0013420555988436.PDF
+Archivo guardado: PDF-DOC-E00164820607062111.PDF
+Archivo guardado: PDF-DOC-E0017820609439107.PDF
+Archivo guardado: PDF-DOC-E0017920609439107.PDF
+PROCESO FINALIZADO
+
